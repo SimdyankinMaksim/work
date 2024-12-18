@@ -3,7 +3,6 @@
 a = 5; b = 7 ->  max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
-Программа.
 Console.Write("Введите первое число (a): ");
 int a = Convert.ToInt32(Console.ReadLine());
 
@@ -22,7 +21,6 @@ Console.WriteLine($"min = {min}");
 2, 3, 7 -> 7
 44 5 78 -> 78
 22 3 9 -> 22
-Программа.
 Console.WriteLine("Введите три числа, разделенные пробелами:");
 string input = Console.ReadLine();
 
@@ -41,7 +39,6 @@ Console.WriteLine($"Максимальное число: {max}");
 4 -> да
 -3 -> нет
 7 -> нет
-Программа.
 Console.WriteLine("Введите число:");
 string input = Console.ReadLine();
 
@@ -66,7 +63,6 @@ else
 а на выходе показывает все чётные числа от 1 до N.
 5 -> 2, 4
 8 -> 2, 4, 6, 8
-Программа.
 Console.WriteLine("Введите число N:");
 string input = Console.ReadLine();
 
